@@ -12,6 +12,8 @@ Abrir [http://localhost:3000](http://localhost:3000) en su navegador para ver lo
 
 Puede iniciar modificaciones en `app/page.tsx`. Las actualizaciones se cargaran automáticamente al guardar.
 
+La URL de la base de datos y las credenciales del ethereal email están en el archivo de variables de entorno .env. El mail ethereal es un placeholder de un mail real ya que por autenticaciones de nodemailer tuve una cuenta de outlook bloqueada al usarla para varias notificaciones de fondo suscrito.
+
 Este proyecto usa [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para optimizar y cargar automáticamente [Geist](https://vercel.com/font), que es un nuevo font family para Vercel.
 
 ## Version en Deployment con Vercel
