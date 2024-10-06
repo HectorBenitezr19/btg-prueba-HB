@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 
 export async function POST(req) {
   await dbConnect();
-  const { type, fundName, cost, email } = await req.json();
+  const { fundName, cost, email } = await req.json();
 
   // Crear o encontrar el usuario de email
   let user = await User.findOne({ email });
