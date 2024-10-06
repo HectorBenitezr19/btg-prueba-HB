@@ -17,8 +17,14 @@ Este proyecto usa [`next/font`](https://nextjs.org/docs/app/building-your-applic
 ## Version en Deployment con Vercel
 https://btg-prueba-hb-4wr7-3aumrg73o-hectorbenitezr19s-projects.vercel.app/funds
 
-## Learn More
+## Manual de Usuario de la versión en Deployment
+1. Ingrese un email en el prompt "Email para notificaciones", ya que sin este campo lleno no podrá registrar fondos para suscribirse
+2. Puede elegir entre dos tipos principales de fondos (FPV y FIC) donde cada uno tiene distintos subtipos de fondos para suscribirse
+3. Tenga en cuenta que tiene un balance inicial de 500000COP y que cada subtipo de fondo tiene un costo
+4. El sistema no le permitirá inscribir subtipos de fondos cuya suma supere el monto total que tiene de balance
+5. El balance se irá actualizando a medida que se inscriba o cancele un subtipo de fondo donde el valor del fondo suscrito será debitado de su saldo y el valor de la suscripción del fondo cancelado le será acreditado en su balance
 
+## Learn More
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
